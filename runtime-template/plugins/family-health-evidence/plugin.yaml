@@ -1,0 +1,14 @@
+name: family-health-evidence
+version: 1.1.0
+description: Local patient-scoped records, bounded illness-course memory, controlled official evidence and an optional owner-supplied interaction signal.
+provides_tools:
+  - family_health_status
+  - family_health_select_patient
+  - family_health_patient_summary
+  - family_health_recent_history
+  - family_health_evaluate_intake
+  - family_health_medication_gate
+  - family_health_pediatric_gate
+  - medical_source_catalog
+  - medical_evidence_search
+  - medical_record_fetch

@@ -1,0 +1,24 @@
+# Merge deliberately into a dedicated Hermes profile; do not copy over an active profile.
+model:
+  default: "your-provider/your-model"
+agent:
+  max_turns: 45
+  # Current Hermes uses an explicit denylist. The Family Doctor plugin tools
+  # remain available; unrelated high-blast-radius built-ins stay disabled.
+  disabled_toolsets:
+    - terminal
+    - file
+    - web
+    - browser
+    - code_execution
+    - computer_use
+    - memory
+    - session_search
+    - delegation
+    - cronjob
+    - messaging
+    - image_gen
+    - video_gen
+    - tts
+# Keep raw terminal, file, web and memory tools disabled for the medical profile
+# unless you have reviewed their data boundary separately.

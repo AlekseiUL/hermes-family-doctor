@@ -1,0 +1,9 @@
+{
+  "patient_id": "patient-synthetic-urgent",
+  "red_flags": {
+    "severe_breathing_difficulty": true
+  },
+  "course_tracking": {
+    "action": "none"
+  }
+}

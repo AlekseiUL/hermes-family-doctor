@@ -1,0 +1,20 @@
+{
+  "clinical_validation_status": "pending_independent_clinician_review",
+  "counts": {
+    "development": 120,
+    "medication": 50,
+    "public-regression": 30
+  },
+  "files": {
+    "cases/development.jsonl": "3f85e2f12b3ea0f12b766e6689d4afaec62b51394daa9ed29ec5ae4291ed89e3",
+    "cases/medication.jsonl": "da02440b0a4005306f5e5e43b7de1932e9ed8f0aaad47f70fbf26985720c3551",
+    "cases/public-regression.jsonl": "52bc8787795bd56cfd921c684d515a73bdd50bfd2150d46e56b6d32c218a9c64",
+    "contract-rubrics/development.jsonl": "a6486697aa7d68da4805bbaf4c9d4f5dbd7a888b89b7ce8f18807e408b815c65",
+    "contract-rubrics/medication.jsonl": "93f57386590da9089a496a2e48fabcc8690ba573cae73247f7cdfe37a5ed62ee",
+    "contract-rubrics/public-regression.jsonl": "954457ca0a23775ad42a71860f6a7d40a7dae1572b372f841f2cb6148a929c8a"
+  },
+  "rubrics_sent_to_model": false,
+  "schema_version": "1.0",
+  "synthetic_only": true,
+  "total": 200
+}

@@ -1,0 +1,10 @@
+include LICENSE NOTICE.md SECURITY.md README.md plugin.yaml __init__.py
+recursive-include assets *.md *.png *.svg
+recursive-include docs *.md
+recursive-include examples *.json
+recursive-include evaluation *.py *.json *.jsonl
+recursive-include runtime-template *.py *.yaml *.md
+recursive-include scripts *.py
+recursive-include tests *.py
+recursive-include .github *.yml
+global-exclude *.py[cod]

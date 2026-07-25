@@ -1,0 +1,21 @@
+{
+  "patient_id": "patient-adult-001",
+  "onset": "today",
+  "course": "stable",
+  "severity": 2,
+  "associated_symptoms": [],
+  "measurements": {},
+  "current_medications": [],
+  "allergies": [],
+  "attempts": [],
+  "red_flags": {
+    "severe_breathing_difficulty": false
+  },
+  "course_tracking": {
+    "action": "open_new",
+    "tracking_confirmed": true,
+    "complaint_key": "respiratory",
+    "status": "active",
+    "link_basis": "new_current_problem"
+  }
+}

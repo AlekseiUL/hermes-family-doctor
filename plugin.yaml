@@ -1,0 +1,4 @@
+name: hermes-family-doctor
+version: "1.1.0"
+description: "Local-first family health information coordinator with urgency-first routing, isolated records, confirmed writes, and bounded evidence."
+author: "Hermes Family Doctor contributors"

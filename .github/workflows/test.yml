@@ -1,0 +1,26 @@
+name: tests
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.11", "3.12", "3.13"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - run: python -m pip install --upgrade pip build
+      - run: python -m pip install '.[dev]'
+      - run: python -m compileall -q __init__.py src evaluation tests runtime-template
+      - run: python -m pytest -q
+      - run: python evaluation/runner.py --all --report /tmp/hfd-summary.json
+      - run: python -m build
+      - run: python scripts/inspect_release_artifacts.py dist
+      - run: python scripts/privacy_scan.py .
+      - run: hermes-family-doctor status

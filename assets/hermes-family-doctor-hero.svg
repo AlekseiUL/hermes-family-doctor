@@ -1,0 +1,146 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Hermes Family Doctor — local-first safety coordinator</title>
+  <desc id="desc">A four-stage engineering workflow: triage, isolated patient card, confirmed write, and medication plus evidence gates.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07121f"/>
+      <stop offset="0.56" stop-color="#0a1724"/>
+      <stop offset="1" stop-color="#050b13"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#102638" stop-opacity="0.96"/>
+      <stop offset="1" stop-color="#0a1825" stop-opacity="0.96"/>
+    </linearGradient>
+    <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2ee6d6"/>
+      <stop offset="1" stop-color="#40bff4"/>
+    </linearGradient>
+    <linearGradient id="red" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f06465"/>
+      <stop offset="1" stop-color="#d93d4b"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#6cb7ce" stroke-width="1" opacity="0.055"/>
+    </pattern>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#000914" flood-opacity="0.56"/>
+    </filter>
+
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,1 L10,6 L0,11 Z" fill="#38d3de"/>
+    </marker>
+    <style>
+      .title { font-family: Arial, Helvetica, sans-serif; font-size: 76px; font-weight: 800; letter-spacing: -2px; fill: #f4f8fb; }
+      .kicker { font-family: Arial, Helvetica, sans-serif; font-size: 18px; font-weight: 700; letter-spacing: 4.5px; fill: #43d9dd; }
+      .label { font-family: Arial, Helvetica, sans-serif; font-size: 22px; font-weight: 700; letter-spacing: 1px; fill: #f5f9fc; }
+      .label-sm { font-family: Arial, Helvetica, sans-serif; font-size: 19px; font-weight: 700; letter-spacing: 0.8px; fill: #f5f9fc; }
+      .micro { font-family: Menlo, Consolas, monospace; font-size: 12px; font-weight: 700; letter-spacing: 1.5px; fill: #5a8092; }
+      .stroke { fill: none; stroke: #43d9dd; stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; }
+      .stroke-muted { fill: none; stroke: #407084; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+    </style>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect width="1600" height="900" fill="url(#grid)"/>
+  <circle cx="1435" cy="80" r="310" fill="#0d93b8" opacity="0.045"/>
+  <circle cx="120" cy="850" r="300" fill="#24d8c8" opacity="0.035"/>
+
+  <!-- Header -->
+  <g transform="translate(100 88)">
+    <g aria-hidden="true">
+      <path d="M5 18 L20 4 L35 18 L50 4 L65 18" fill="none" stroke="url(#cyan)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="5" cy="18" r="4" fill="#2ee6d6"/>
+      <circle cx="65" cy="18" r="4" fill="#40bff4"/>
+    </g>
+    <text x="88" y="22" class="kicker">LOCAL-FIRST SAFETY COORDINATOR</text>
+    <text x="0" y="110" class="title">Hermes Family Doctor</text>
+    <rect x="0" y="144" width="1400" height="1" fill="#4b7485" opacity="0.38"/>
+  </g>
+
+  <!-- Main process rail -->
+  <g aria-hidden="true">
+    <path d="M320 462 H478" fill="none" stroke="#38d3de" stroke-width="4" marker-end="url(#arrow)"/>
+    <path d="M680 462 H838" fill="none" stroke="#38d3de" stroke-width="4" marker-end="url(#arrow)"/>
+    <path d="M1040 462 H1198" fill="none" stroke="#38d3de" stroke-width="4" marker-end="url(#arrow)"/>
+    <path d="M320 462 H478 M680 462 H838 M1040 462 H1198" fill="none" stroke="#35d7dc" stroke-width="10" opacity="0.07"/>
+  </g>
+
+  <!-- Card 1: Triage -->
+  <g transform="translate(100 320)" filter="url(#shadow)">
+    <rect width="220" height="285" rx="22" fill="url(#panel)" stroke="#2f6578" stroke-width="2"/>
+    <rect x="1" y="1" width="218" height="6" rx="3" fill="url(#red)"/>
+    <g transform="translate(62 52)">
+      <path d="M48 0 C68 12 82 14 96 18 V55 C96 87 74 107 48 120 C22 107 0 87 0 55 V18 C14 14 28 12 48 0Z" fill="#0a1b28" stroke="#4adce0" stroke-width="3"/>
+      <path d="M17 61 H32 L42 43 L53 78 L65 54 L75 61 H81" class="stroke"/>
+      <circle cx="48" cy="26" r="5" fill="#e4575d"/>
+    </g>
+    <text x="110" y="223" text-anchor="middle" class="label">TRIAGE</text>
+    <path d="M66 244 H154" stroke="#d64d55" stroke-width="3" stroke-linecap="round" opacity="0.75"/>
+  </g>
+
+  <!-- Card 2: Isolated patient card -->
+  <g transform="translate(480 320)" filter="url(#shadow)">
+    <rect width="220" height="285" rx="22" fill="url(#panel)" stroke="#2f6578" stroke-width="2"/>
+    <rect x="1" y="1" width="218" height="6" rx="3" fill="url(#cyan)"/>
+    <g transform="translate(45 48)">
+      <rect x="24" y="0" width="106" height="126" rx="12" fill="#071621" stroke="#326d81" stroke-width="2" opacity="0.8"/>
+      <rect x="0" y="20" width="106" height="126" rx="12" fill="#0b1e2c" stroke="#46d9db" stroke-width="3"/>
+      <circle cx="34" cy="57" r="15" fill="none" stroke="#46d9db" stroke-width="3"/>
+      <path d="M12 102 C20 80 48 80 56 102" fill="none" stroke="#46d9db" stroke-width="3" stroke-linecap="round"/>
+      <path d="M70 50 H89 M70 66 H89 M70 91 H89 M70 107 H89" class="stroke-muted"/>
+      <path d="M116 98 v18 h-18" fill="none" stroke="#d8545b" stroke-width="3" stroke-linecap="round"/>
+    </g>
+    <text x="110" y="218" text-anchor="middle" class="label-sm">ISOLATED</text>
+    <text x="110" y="246" text-anchor="middle" class="label-sm">PATIENT CARD</text>
+  </g>
+
+  <!-- Card 3: Confirmed write -->
+  <g transform="translate(860 320)" filter="url(#shadow)">
+    <rect width="220" height="285" rx="22" fill="url(#panel)" stroke="#2f6578" stroke-width="2"/>
+    <rect x="1" y="1" width="218" height="6" rx="3" fill="url(#cyan)"/>
+    <g transform="translate(43 49)">
+      <rect x="0" y="0" width="134" height="111" rx="12" fill="#091a27" stroke="#3f7588" stroke-width="2"/>
+      <path d="M18 28 H116 M18 49 H93 M18 70 H109" class="stroke-muted"/>
+      <path d="M18 91 H69" stroke="#43d9dd" stroke-width="3" stroke-linecap="round"/>
+      <circle cx="104" cy="93" r="26" fill="#0c2a32" stroke="#43d9dd" stroke-width="3"/>
+      <path d="M91 93 l9 9 17-20" class="stroke"/>
+      <path d="M67 122 v24 M52 134 h30" class="stroke-muted"/>
+    </g>
+    <text x="110" y="218" text-anchor="middle" class="label-sm">CONFIRMED</text>
+    <text x="110" y="246" text-anchor="middle" class="label-sm">WRITE</text>
+  </g>
+
+  <!-- Card 4: Medication + evidence gates -->
+  <g transform="translate(1240 320)" filter="url(#shadow)">
+    <rect width="260" height="285" rx="22" fill="url(#panel)" stroke="#2f6578" stroke-width="2"/>
+    <rect x="1" y="1" width="258" height="6" rx="3" fill="url(#cyan)"/>
+    <g transform="translate(54 45)">
+      <path d="M75 0 v126" stroke="#3e7083" stroke-width="3" stroke-dasharray="5 8"/>
+      <rect x="0" y="20" width="56" height="98" rx="28" fill="#0a1d29" stroke="#43d9dd" stroke-width="3"/>
+      <path d="M6 70 H50" stroke="#43d9dd" stroke-width="3"/>
+      <path d="M8 67 L47 28" stroke="#d9565c" stroke-width="4" opacity="0.9"/>
+      <rect x="96" y="8" width="60" height="112" rx="8" fill="#0a1d29" stroke="#43d9dd" stroke-width="3"/>
+      <path d="M108 33 H144 M108 52 H144 M108 71 H134" class="stroke-muted"/>
+      <circle cx="126" cy="96" r="13" fill="none" stroke="#43d9dd" stroke-width="3"/>
+      <path d="M117 96 l6 6 12-15" fill="none" stroke="#43d9dd" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <text x="130" y="216" text-anchor="middle" class="label-sm">MEDICATION +</text>
+    <text x="130" y="244" text-anchor="middle" class="label-sm">EVIDENCE GATES</text>
+  </g>
+
+  <!-- Footer status rail: visual-only, no extra product claims -->
+  <g transform="translate(100 700)" aria-hidden="true">
+    <rect width="1400" height="92" rx="18" fill="#081520" stroke="#24495a" stroke-width="2"/>
+    <path d="M54 46 H1346" stroke="#24495a" stroke-width="2"/>
+    <circle cx="54" cy="46" r="8" fill="#e1535b"/>
+    <circle cx="485" cy="46" r="8" fill="#43d9dd"/>
+    <circle cx="916" cy="46" r="8" fill="#43d9dd"/>
+    <circle cx="1346" cy="46" r="8" fill="#43d9dd"/>
+    <path d="M62 46 H477 M493 46 H908 M924 46 H1338" stroke="url(#cyan)" stroke-width="3" opacity="0.7"/>
+  </g>
+
+  <!-- Precision corner marks -->
+  <g stroke="#4acfd6" stroke-width="2" opacity="0.34" aria-hidden="true">
+    <path d="M48 74 V48 H74 M1526 48 H1552 V74 M48 826 V852 H74 M1526 852 H1552 V826" fill="none"/>
+  </g>
+</svg>
