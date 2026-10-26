@@ -1,0 +1,10 @@
+{
+  "fixture_contract_version": 1,
+  "kind": "synthetic-offline",
+  "files": {
+    "tests/test_evidence_runtime.py": "aec2be598ffbfef1a04a7ff2ab13018fb3fcc364ee09fbee082d96938f34aeed",
+    "tests/test_public_boundary.py": "1e45ecb356577224ba4be2dd4f940d975752b411dbfc85eb735adb48fc800f0b",
+    "tests/test_request_router.py": "36cb65ace6018c156033b60175b78410d94ffe115f3ba65de944e300938e7d24"
+  },
+  "limits": "Pins synthetic fixture contracts only. No live host, clinical, remote API, or provider quality certification. Refresh intentionally with reviewed fixture changes."
+}
